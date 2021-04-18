@@ -16,7 +16,7 @@
 下载upload-labs包
 
 ```txt
-$ github.com/jmd-603/deuce.git &&\
+$ git clone https://github.com/jmd-603/deuce.git 
 ```
 
 创建父级镜像
