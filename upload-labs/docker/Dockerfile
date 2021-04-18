@@ -23,7 +23,7 @@ RUN apt-get update && \
 
 # install upload-labs
 RUN cd /tmp/ &&\
-    git clone https://github.com/jmd-603/docker-uploadlabs.git &&\
+    git clone https://github.com/jmd-603/deuce.git &&\
     rm -rf /var/www/html/* &&\
     mv /tmp/docker-uploadlabs/* /var/www/html/ &&\
     rm -rf /var/www/html/Pass/* &&\

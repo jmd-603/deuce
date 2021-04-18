@@ -16,7 +16,7 @@
 下载upload-labs包
 
 ```txt
-$ git clone https://github.com/webrq/docker-uploadlabs.git
+$ github.com/jmd-603/deuce.git &&\
 ```
 
 创建父级镜像
