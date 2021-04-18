@@ -22,14 +22,14 @@ $ github.com/jmd-603/deuce.git &&\
 创建父级镜像
 
 ```txt
-$ cd docker-uploadlabs/upload-labs/docker
+$ cd deuce/upload-labs/docker
 $ docker build -t upload-labs .
 ```
 
 创建子级镜像（每道题一个子镜像）
 
 ```txt
-$ cd docker-uploadlabs/Pass/Pass-01
+$ cd deuce/Pass/Pass-01
 $ docker build -t upload-labs/pass01 .
 ```
 
